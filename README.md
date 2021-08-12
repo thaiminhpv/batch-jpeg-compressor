@@ -27,9 +27,9 @@ cd batch-jpeg-compressor
 ./batch_jpeg_compressor [start directory] [end directory]
 ```
 
-### Or run directly from executable file
+### Or run directly from standalone executable file
 
-Download the [executable file](https://github.com/thaiminhpv/batch-jpeg-compressor/releases/download/v0.1/batch_jpeg_compressor) and just run it directly (without installing python!)
+Download the [standalone executable file](https://github.com/thaiminhpv/batch-jpeg-compressor/releases/download/v0.1/batch_jpeg_compressor) and just run it directly (without installing python!)
 
 ```shell
 ./batch_jpeg_compressor [start directory] [end directory]
