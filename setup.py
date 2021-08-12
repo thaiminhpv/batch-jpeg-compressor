@@ -1,8 +1,11 @@
-from distutils.core import setup
+import setuptools
 
-setup(
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
     name="batch_jpeg_compressor",
-    packages=["batch_jpeg_compressor"],
+    scripts=["batch_jpeg_compressor"],
     version="0.1",
     license="MIT",
     description="This is a CLI tool to compress multiple images (JPEG or PNG) at once using python",
