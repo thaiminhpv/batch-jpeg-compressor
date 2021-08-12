@@ -23,12 +23,8 @@ batch_jpeg_compressor [start directory] [end directory]
 ```shell
 git clone https://github.com/thaiminhpv/batch-jpeg-compressor
 cd batch-jpeg-compressor
-```
 
-then
-
-```shell
-python -m batch_jpeg_compressor [start directory] [end directory]
+./batch_jpeg_compressor [start directory] [end directory]
 ```
 
 ### Or run directly from executable file
