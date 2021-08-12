@@ -6,8 +6,6 @@ from tqdm import tqdm
 import sys
 from pathlib import Path
 
-# ROOT = os.path.dirname(__file__) + "/"
-
 
 def compress_images(begin_directory: Path, target_directory: Path, quality=30):
     """compress images
@@ -17,10 +15,9 @@ def compress_images(begin_directory: Path, target_directory: Path, quality=30):
         target_directory (Path): target image dir
         quality (int, optional):  Defaults to 30/100.
     """
-    files = os.listdir(begin_directory)
 
     # images = [file for file in files if file.endswith(("jpg", "png"))]
-    images = files
+    images = os.listdir(begin_directory)
     for image in tqdm(images):
 
         image_begin = str(begin_directory / image)
