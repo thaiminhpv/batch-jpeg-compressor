@@ -1,8 +1,7 @@
 from PIL import Image
-import PIL
-import os
-import glob
 from tqdm import tqdm
+
+import os
 import sys
 from pathlib import Path
 
