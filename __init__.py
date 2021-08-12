@@ -1,1 +1,0 @@
-import batch_jpeg_compressor

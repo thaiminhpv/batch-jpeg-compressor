@@ -30,15 +30,3 @@ def compress_images(begin_directory: Path, target_directory: Path, quality=30):
         image = image + ".jpg"
 
         img.save(str(target_directory / image), optimize=True, quality=quality)
-
-
-if __name__ == "__main__":
-
-    begin_directory = Path.absolute(Path(sys.argv[1]))
-    target_directory = Path.absolute(Path(sys.argv[2]))
-
-    compress_images(
-        begin_directory=begin_directory, target_directory=target_directory, quality=30
-    )
-
-    print("done!")

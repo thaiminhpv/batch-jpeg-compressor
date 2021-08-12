@@ -9,7 +9,7 @@ setup(
     author="thaiminhpv",
     author_email="thaiminhpv@gmail.com",
     url="https://github.com/thaiminhpv/batch-jpeg-compressor",
-    download_url="https://github.com/thaiminhpv/batch-jpeg-compressor/releases/download/v0.1/batch_jpeg_compressor",
+    download_url="https://github.com/thaiminhpv/batch-jpeg-compressor/archive/refs/tags/v0.1.tar.gz",
     keywords=[
         "compressor",
         "jpeg",

@@ -4,6 +4,20 @@ This is a CLI tool to compress multiple images (JPEG or PNG) at once using pytho
 
 ## Usage
 
+To use this tool, you can do **either**:
+
+### Pip and run
+
+```shell
+pip3 install git+https://github.com/thaiminhpv/batch-jpeg-compressor@main
+```
+
+then
+
+```shell
+batch_jpeg_compressor [start directory] [end directory]
+```
+
 ### Run from source
 
 ```shell
